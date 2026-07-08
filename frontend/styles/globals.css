@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* A little bit of extra polish that's easier to write as plain CSS
+   than as Tailwind classes - a smooth background for the whole page. */
+body {
+  background-color: #f8fafc;
+}
