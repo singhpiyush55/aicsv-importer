@@ -13,15 +13,15 @@ export default function PreviewTable({ headers, rows }: PreviewTableProps) {
   return (
     // "max-h-96 overflow-auto" is what gives us both horizontal AND
     // vertical scrolling once the table gets too big for its box.
-    <div className="max-h-96 overflow-auto rounded-lg border border-gray-200">
+    <div className="max-h-96 overflow-auto rounded-lg border border-gray-200 dark:border-slate-700">
       <table className="min-w-full border-collapse text-sm">
         <thead>
           {/* "sticky top-0" keeps the header visible while scrolling down */}
-          <tr className="sticky top-0 bg-gray-100">
+          <tr className="sticky top-0 bg-gray-100 dark:bg-slate-800">
             {headers.map((header) => (
               <th
                 key={header}
-                className="whitespace-nowrap border-b border-gray-200 px-4 py-2 text-left font-semibold text-gray-700"
+                className="whitespace-nowrap border-b border-gray-200 dark:border-slate-700 px-4 py-2 text-left font-semibold text-gray-700 dark:text-gray-100"
               >
                 {header}
               </th>
@@ -30,9 +30,9 @@ export default function PreviewTable({ headers, rows }: PreviewTableProps) {
         </thead>
         <tbody>
           {rows.map((row, rowIndex) => (
-            <tr key={rowIndex} className={rowIndex % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+            <tr key={rowIndex} className={rowIndex % 2 === 0 ? "bg-white dark:bg-slate-800" : "bg-gray-50 dark:bg-slate-800/50"}>
               {headers.map((header) => (
-                <td key={header} className="whitespace-nowrap border-b border-gray-100 px-4 py-2 text-gray-600">
+                <td key={header} className="whitespace-nowrap border-b border-gray-100 dark:border-slate-700 px-4 py-2 text-gray-600 dark:text-gray-300">
                   {row[header] || ""}
                 </td>
               ))}

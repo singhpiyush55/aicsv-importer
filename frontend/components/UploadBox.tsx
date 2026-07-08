@@ -44,7 +44,9 @@ export default function UploadBox({ onFileSelected }: UploadBoxProps) {
         handleFile(e.dataTransfer.files?.[0]);
       }}
       className={`cursor-pointer rounded-xl border-2 border-dashed p-12 text-center transition-colors ${
-        isDraggingOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-white"
+        isDraggingOver 
+          ? "border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-900/20" 
+          : "border-gray-300 bg-white dark:border-slate-600 dark:bg-slate-800"
       }`}
     >
       <input
@@ -55,9 +57,9 @@ export default function UploadBox({ onFileSelected }: UploadBoxProps) {
         onChange={(e) => handleFile(e.target.files?.[0])}
       />
 
-      <p className="text-lg font-medium text-gray-700">Drop your CSV file here</p>
-      <p className="mt-1 text-sm text-gray-500">or click to browse files</p>
-      <p className="mt-4 text-xs text-gray-400">Supports any CSV layout - column names don&apos;t need to match.</p>
+      <p className="text-lg font-medium text-gray-700 dark:text-gray-200">Drop your CSV file here</p>
+      <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">or click to browse files</p>
+      <p className="mt-4 text-xs text-gray-400 dark:text-gray-500">Supports any CSV layout - column names don&apos;t need to match.</p>
     </div>
   );
 }

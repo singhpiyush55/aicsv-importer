@@ -6,4 +6,10 @@
    than as Tailwind classes - a smooth background for the whole page. */
 body {
   background-color: #f8fafc;
+  @apply transition-colors duration-200;
+}
+
+html.dark body {
+  background-color: #0f172a;
+  color: #e2e8f0;
 }
