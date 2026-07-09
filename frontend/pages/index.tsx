@@ -133,9 +133,9 @@ export default function HomePage() {
       <header className="mb-8">
         <div className="flex items-start justify-between gap-4">
           <div className="flex-1">
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">GrowEasy AI CSV Importer</h1>
+            <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">AI CSV Importer</h1>
             <p className="mt-1 text-gray-500 dark:text-gray-400">
-              Upload a CSV in any layout - our AI will map it into GrowEasy CRM format.
+              Upload a CSV in any layout - our AI will map it into desired CRM format.
             </p>
           </div>
           <button
@@ -191,7 +191,7 @@ export default function HomePage() {
       {/* {step === "processing" && <Loader message="AI is mapping your CSV into CRM leads. This can take a moment..." />} */}
 
       {step === "processing" && <Loader currentStage={currentStage} batchProgress={batchProgress} />}
-      
+
       {step === "results" && importResult && (
         <div className="space-y-6">
           <ResultsTable result={importResult} />

@@ -1,10 +1,10 @@
-# GrowEasy AI CSV Importer
+# AI CSV Importer
 
-An AI-powered CSV importer built for the GrowEasy Software Developer assignment.
+An AI-powered CSV importer.
 Upload a CSV in **any layout** (Facebook Lead Ads export, Google Ads export, a
 messy Excel sheet, a manually made spreadsheet — anything), and the app uses
 an AI model (via [Groq](https://groq.com), free tier) to intelligently map the
-columns into GrowEasy's fixed CRM lead format.
+columns into your desired fixed CRM lead format.
 
 ## How it works (high level)
 
@@ -25,7 +25,7 @@ columns into GrowEasy's fixed CRM lead format.
 ## Project structure
 
 ```
-groweasy-csv-importer/
+ai-csv-importer/
 ├── backend/              Express + TypeScript API (does the AI mapping)
 │   └── src/
 │       ├── server.ts             Express app entry point
@@ -119,7 +119,7 @@ npm run dev
 
 Visit `http://localhost:3000` and try uploading a CSV.
 
-## The AI prompt design (evaluation criteria: prompt engineering)
+## The AI prompt design
 
 The full prompt lives in `backend/src/services/groqService.ts`, in the
 `buildSystemPrompt()` function. The key design decisions:
@@ -172,9 +172,6 @@ The full prompt lives in `backend/src/services/groqService.ts`, in the
 
 ## Notes / known limitations
 
-- This project is intentionally kept dependency-light and beginner-simple:
-  no state-management libraries, no ORMs, no database — it's stateless by
-  design, as the assignment allows.
 - Large CSVs (thousands of rows) will take longer because batches are sent
   to Groq one at a time, sequentially, to stay safely within free-tier rate
   limits. This trades a bit of speed for reliability.

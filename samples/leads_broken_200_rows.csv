@@ -1,0 +1,201 @@
+created_at,name,email,country_code,mobile_without_country_code,company,city,state,country,lead_owner,crm_status,crm_note,data_source,possession_time,description
+2026-05-01 09:00:00,Sneha Gupta,sneha.gupta0@example.com,+61,66723448,Enterprise Corp,Bangalore,Uttar Pradesh,,,INVALID,Interested in demo,CSV Import,5 hours,Incomplete address
+,Karan Brown,karan.brown1@example.com,+44,,,Delhi,Maharashtra,India,agent@example.com,,Email bounced,,,Needs invoice
+2026-05-01 09:14:00,David Johnson,david.johnson2@example.com,+61,4441978266,Alpha,Hyderabad,Tamil Nadu,India,test@gmail.com,BAD_LEAD,,Facebook Ads,2 days,???
+2026-05-01 09:21:00,,david.brown3@example.com,+1,17707092,Tech Solutions,,West Bengal,USA,test@gmail.com,,Follow up next month,CSV Import,N/A,
+2026-05-01 09:28:00,Vikram Johnson,vikram.johnson4@example.com,,11301293893,Acme,Pune,Tamil Nadu,,sales@example.com,GOOD_LEAD_FOLLOW_UP,Interested in demo,CSV Import,N/A,Needs invoice
+2026-05-01 09:35:00,John Singh,john.singh5@example.com,+61,,Acme,Kolkata,Rajasthan,India,test@gmail.com,INVALID,Call back tomorrow,Website,1 week,VIP customer
+2026-05-01 09:42:00,Neha Brown,neha.brown6@example.com,+1,,Acme,,Uttar Pradesh,India,test@gmail.com,BAD_LEAD,Follow up next month,Website,1 week,
+2026-05-01 09:49:00,Aditya Singh,aditya.singh7@example.com,+91,0058295039,,Bangalore,Uttar Pradesh,USA,agent@example.com,BAD_LEAD,,CSV Import,2 days,
+2026-05-01 09:56:00,Emily Sharma,emily.sharma8@example.com,,26103329,,Pune,West Bengal,India,,SALE_DONE,Wrong number,,5 hours,
+2026-05-01 10:03:00,,abc@,+91,4760393941,Startup Inc,Bangalore,,India,test@gmail.com,NEW_LEAD,Wrong number,Referral,2 days,???
+2026-05-01 10:10:00,Karan Smith,karan.smith10@example.com,,0678613000,Startup Inc,Hyderabad,Delhi,,owner@crm.com,BAD_LEAD,,Facebook Ads,2 days,VIP customer
+2026-05-01 10:17:00,Sneha Sharma,sneha.sharma11@example.com,,5962711416,NovaTech,Delhi,Uttar Pradesh,USA,owner@crm.com,SALE_DONE,,Referral,5 hours,Incomplete address
+2026-05-01 10:24:00,David Brown,david.brown12@example.com,+61,172973413,NovaTech,Jaipur,,,agent@example.com,NEW_LEAD,Interested in demo,CSV Import,5 hours,
+,Ananya Doe,ananya.doe13@example.com,+44,9919562330,FutureSoft,,Rajasthan,India,owner@crm.com,,Requested pricing,,2 days,???
+2026-05-01 10:38:00,Sophia Kumar,sophia.kumar14@example.com,+91,24587113,GrowEasy,,West Bengal,USA,owner@crm.com,DID_NOT_CONNECT,Email bounced,Facebook Ads,2 days,VIP customer
+2026-05-01 10:45:00,Neha Brown,neha.brown15@example.com,,48534899838,###,,Karnataka,USA,,SALE_DONE,Budget issue,Referral,N/A,Needs invoice
+2026-05-01 10:52:00,David Doe,david.doe16@example.com,+91,17394298,###,Chennai,Tamil Nadu,UK,,NEW_LEAD,Deal closed,,1 week,Incomplete address
+2026-05-01 10:59:00,Aditya Johnson,aditya.johnson17@example.com,,23560771,Alpha,Pune,Karnataka,UK,sales@example.com,BAD_LEAD,Requested pricing,Referral,,Needs invoice
+2026-05-01 11:06:00,Priya Sharma,priya.sharma18@example.com,+61,9144100584,GrowEasy,,Rajasthan,India,test@gmail.com,SALE_DONE,Follow up next month,Facebook Ads,5 hours,VIP customer
+2026-05-01 11:13:00,,riya.sharma19@example.com,+1,82021328705,,Chennai,Maharashtra,,,GOOD_LEAD_FOLLOW_UP,Follow up next month,Website,,Needs invoice
+2026-05-01 11:20:00,Karan Sharma,karan.sharma20@example.com,+61,813771100,GrowEasy,Kolkata,Maharashtra,,owner@crm.com,BAD_LEAD,,Referral,,Needs invoice
+2026-05-01 11:27:00,Sophia Singh,sophia.singh21@example.com,+91,,FutureSoft,Pune,Telangana,,agent@example.com,GOOD_LEAD_FOLLOW_UP,Email bounced,CSV Import,,VIP customer
+2026-05-01 11:34:00,Michael Johnson,michael.johnson22@example.com,+44,945923558,Sky Labs,Kolkata,,Canada,owner@crm.com,NEW_LEAD,,,1 week,Incomplete address
+2026-05-01 11:41:00,Rahul Taylor,rahul.taylor23@example.com,+1,,FutureSoft,Pune,Rajasthan,Canada,,,Wrong number,Manual,2 days,VIP customer
+2026-05-01 11:48:00,Amit Gupta,amit.gupta24@example.com,+61,36898065,NovaTech,Kolkata,Uttar Pradesh,Canada,test@gmail.com,,,Manual,1 week,???
+2026-05-01 11:55:00,,meera.brown25@example.com,+1,3165016214,,Jaipur,Tamil Nadu,India,test@gmail.com,SALE_DONE,Call back tomorrow,,1 week,Needs invoice
+2026-05-01 12:02:00,David Brown,david.brown26@example.com,,,FutureSoft,Jaipur,West Bengal,USA,agent@example.com,INVALID,Interested in demo,Referral,,Needs invoice
+2026-05-01 12:09:00,Emily Patel,emily.patel27@example.com,+91,6530882109,Alpha,,West Bengal,Canada,agent@example.com,DID_NOT_CONNECT,Follow up next month,,2 days,VIP customer
+2026-05-01 12:16:00,Emily Patel,emily.patel28@example.com,+44,8817558657,Startup Inc,,Telangana,Canada,agent@example.com,SALE_DONE,Wrong number,Facebook Ads,5 hours,Incomplete address
+2026-05-01 12:23:00,Neha Doe,,+1,711756143,Startup Inc,Pune,Rajasthan,UK,owner@crm.com,SALE_DONE,Call back tomorrow,CSV Import,2 days,
+2026-05-01 12:30:00,Priya Brown,,+1,25725650198,Enterprise Corp,,Telangana,India,agent@example.com,NEW_LEAD,Budget issue,CSV Import,1 week,Needs invoice
+2026-05-01 12:37:00,Sophia Sharma,sophia.sharma31@example.com,+1,7183312737,,,Delhi,UK,owner@crm.com,,Requested pricing,,2 days,
+2026-05-01 12:44:00,Rahul Doe,rahulexample.com,,,Enterprise Corp,Delhi,Uttar Pradesh,,,SALE_DONE,Requested pricing,,2 days,???
+2026-05-01 12:51:00,Michael Doe,michael.doe33@example.com,+91,68263862,Sky Labs,Jaipur,Tamil Nadu,,test@gmail.com,NEW_LEAD,Email bounced,,2 days,VIP customer
+2026-05-01 12:58:00,Sneha Johnson,sneha.johnson34@example.com,+44,27510801999,Enterprise Corp,Delhi,Tamil Nadu,,agent@example.com,INVALID,Email bounced,Facebook Ads,5 hours,VIP customer
+2026-05-01 13:05:00,Neha Taylor,invalid-email,,66983453,,Delhi,,India,sales@example.com,INVALID,,CSV Import,,
+2026-05-01 13:12:00,Pooja Brown,pooja.brown36@example.com,+44,8160344177,NovaTech,,West Bengal,,sales@example.com,GOOD_LEAD_FOLLOW_UP,Budget issue,Facebook Ads,N/A,Incomplete address
+2026-05-01 13:19:00,Priya Taylor,priya.taylor37@example.com,,49134968,,Hyderabad,Karnataka,USA,agent@example.com,NEW_LEAD,Interested in demo,Facebook Ads,1 week,Needs invoice
+2026-05-01 13:26:00,,neha.sharma38@example.com,+1,0435770474,GrowEasy,Chennai,Rajasthan,UK,,BAD_LEAD,Requested pricing,Facebook Ads,N/A,VIP customer
+,David Gupta,david.gupta39@example.com,,05677975311,Acme,,Telangana,UK,,DID_NOT_CONNECT,Email bounced,,,Needs invoice
+2026-05-01 13:40:00,Riya Gupta,riya.gupta40@example.com,+61,772271321,GrowEasy,Chennai,Karnataka,,test@gmail.com,INVALID,Budget issue,Facebook Ads,,VIP customer
+2026-05-01 13:47:00,Priya Singh,,,79070811634,Startup Inc,Chennai,Tamil Nadu,India,,SALE_DONE,Call back tomorrow,Facebook Ads,,???
+2026-05-01 13:54:00,Michael Johnson,michael.johnson42@example.com,+91,92571358,Enterprise Corp,Delhi,###,,sales@example.com,INVALID,Follow up next month,Facebook Ads,5 hours,Needs invoice
+2026-05-01 14:01:00,Neha Sharma,neha.sharma43@example.com,+44,,Startup Inc,Kolkata,,UK,test@gmail.com,BAD_LEAD,Budget issue,,1 week,VIP customer
+2026-05-01 14:08:00,Sneha Sharma,sneha.sharma44@example.com,+91,477317736,Tech Solutions,Bangalore,Delhi,Canada,,SALE_DONE,Call back tomorrow,Manual,1 week,???
+2026-05-01 14:15:00,Rahul Smith,rahul.smith45@example.com,+1,11717258,Enterprise Corp,Hyderabad,Maharashtra,Canada,,BAD_LEAD,Wrong number,Referral,,VIP customer
+2026-05-01 14:22:00,Aditya Patel,aditya.patel46@example.com,,,Tech Solutions,Chennai,Rajasthan,India,,NEW_LEAD,Deal closed,Facebook Ads,,Needs invoice
+2026-05-01 14:29:00,Rahul Singh,,+91,724993056,Sky Labs,Bangalore,Rajasthan,USA,test@gmail.com,BAD_LEAD,Wrong number,Manual,5 hours,???
+2026-05-01 14:36:00,,meera.sharma48@example.com,+1,117740879,,Chennai,Rajasthan,India,sales@example.com,SALE_DONE,Follow up next month,Manual,5 hours,Needs invoice
+2026-05-01 14:43:00,Rahul Doe,rahul.doe49@example.com,+44,4035681986,Acme,Kolkata,,UK,sales@example.com,INVALID,Deal closed,Website,1 week,Needs invoice
+2026-05-01 14:50:00,Sophia Kumar,sophia.kumar50@example.com,+91,05480040164,Sky Labs,,Karnataka,UK,owner@crm.com,NEW_LEAD,Follow up next month,CSV Import,,???
+2026-05-01 14:57:00,Vikram Doe,,+91,05877657,Sky Labs,Delhi,Rajasthan,UK,sales@example.com,BAD_LEAD,Wrong number,Facebook Ads,N/A,???
+2026-05-01 15:04:00,John Smith,john.smith52@example.com,+1,89572471,Enterprise Corp,Pune,Tamil Nadu,USA,agent@example.com,BAD_LEAD,Wrong number,Manual,N/A,VIP customer
+2026-05-01 15:11:00,Priya Smith,priya.smith53@example.com,+1,090309315,GrowEasy,,Telangana,USA,sales@example.com,SALE_DONE,Call back tomorrow,Manual,1 week,VIP customer
+2026-05-01 15:18:00,John Kumar,john.kumar54@example.com,+1,99081697335,Acme,Kolkata,West Bengal,UK,test@gmail.com,DID_NOT_CONNECT,Requested pricing,CSV Import,1 week,
+2026-05-01 15:25:00,,sarah.patel55@example.com,+1,,Acme,Kolkata,Tamil Nadu,USA,agent@example.com,DID_NOT_CONNECT,Wrong number,CSV Import,,???
+2026-05-01 15:32:00,Sophia Patel,sophia.patel56@example.com,,,GrowEasy,Pune,Karnataka,,,BAD_LEAD,Wrong number,Website,5 hours,Needs invoice
+2026-05-01 15:39:00,Rajesh Smith,rajesh.smith57@example.com,+1,34850755,Tech Solutions,Delhi,,UK,,SALE_DONE,Requested pricing,Referral,N/A,Needs invoice
+2026-05-01 15:46:00,,ananya.johnson58@example.com,,793211809,NovaTech,Kolkata,West Bengal,India,sales@example.com,,Wrong number,CSV Import,N/A,Needs invoice
+2026-05-01 15:53:00,Priya Sharma,priya.sharma59@example.com,,,Tech Solutions,Pune,Delhi,UK,,SALE_DONE,Interested in demo,Referral,2 days,Incomplete address
+2026-05-01 16:00:00,Vikram Smith,vikram.smith60@example.com,+61,,Enterprise Corp,Pune,Tamil Nadu,UK,test@gmail.com,SALE_DONE,,Manual,2 days,???
+2026-05-01 16:07:00,Neha Singh,neha.singh61@example.com,+44,7635015788,GrowEasy,Lucknow,,India,,SALE_DONE,Budget issue,,N/A,Needs invoice
+2026-05-01 16:14:00,Karan Sharma,karan.sharma62@example.com,+91,,Tech Solutions,Jaipur,Tamil Nadu,Canada,,SALE_DONE,Interested in demo,Manual,2 days,Needs invoice
+2026-05-01 16:21:00,Vikram Singh,vikram.singh63@example.com,+44,79143459,,Kolkata,Maharashtra,India,agent@example.com,SALE_DONE,Budget issue,,5 hours,???
+2026-05-01 16:28:00,Ananya Taylor,ananya.taylor64@example.com,+61,86414998,GrowEasy,Bangalore,Delhi,India,agent@example.com,SALE_DONE,,,5 hours,
+2026-05-01 16:35:00,John Patel,john.patel65@example.com,+1,44538352964,Enterprise Corp,Hyderabad,Rajasthan,,sales@example.com,SALE_DONE,Deal closed,Facebook Ads,5 hours,Incomplete address
+2026-05-01 16:42:00,Amit Sharma,amit.sharma66@example.com,+91,407188035,Enterprise Corp,,,USA,sales@example.com,,Budget issue,,2 days,Incomplete address
+,John Brown,john.brown67@example.com,+44,1514396860,Enterprise Corp,Kolkata,,UK,test@gmail.com,SALE_DONE,Email bounced,Referral,N/A,VIP customer
+2026-05-01 16:56:00,Sneha Singh,sneha.singh68@example.com,,67454709,NovaTech,Chennai,Delhi,Canada,,DID_NOT_CONNECT,Interested in demo,Website,,Incomplete address
+2026-05-01 17:03:00,Emily Brown,emily.brown69@example.com,+1,4092379853,,,West Bengal,India,,GOOD_LEAD_FOLLOW_UP,Deal closed,Manual,,Incomplete address
+2026-05-01 17:10:00,Sarah Johnson,sarah.johnson70@example.com,+44,49345546433,Alpha,Bangalore,Tamil Nadu,Canada,sales@example.com,DID_NOT_CONNECT,Follow up next month,Website,5 hours,
+2026-05-01 17:17:00,Priya Kumar,priya.kumar71@example.com,+91,402448689,Startup Inc,,Telangana,Canada,sales@example.com,NEW_LEAD,,Manual,,Needs invoice
+2026-05-01 17:24:00,Karan Sharma,karan.sharma72@example.com,+44,7221922845,Tech Solutions,Jaipur,Maharashtra,USA,owner@crm.com,INVALID,,Facebook Ads,5 hours,???
+2026-05-01 17:31:00,Sophia Kumar,sophia.kumar73@example.com,,91711251,Sky Labs,,Rajasthan,India,owner@crm.com,GOOD_LEAD_FOLLOW_UP,,Referral,1 week,
+2026-05-01 17:38:00,Pooja Kumar,pooja.kumar74@example.com,+44,,FutureSoft,,Maharashtra,Canada,test@gmail.com,DID_NOT_CONNECT,Interested in demo,,N/A,
+2026-05-01 17:45:00,,emily.taylor75@example.com,+1,,Alpha,Chennai,Tamil Nadu,India,owner@crm.com,SALE_DONE,Call back tomorrow,,N/A,VIP customer
+2026-05-01 17:52:00,Rahul Taylor,abc@,,1123026700,Sky Labs,,Karnataka,UK,agent@example.com,,Requested pricing,Website,1 week,VIP customer
+2026-05-01 17:59:00,Rajesh Singh,rajesh.singh77@example.com,+1,,,Lucknow,Delhi,Canada,owner@crm.com,NEW_LEAD,Call back tomorrow,CSV Import,1 week,???
+2026-05-01 18:06:00,Ananya Singh,invalid-email,+61,37394844,FutureSoft,Jaipur,Uttar Pradesh,,sales@example.com,,Wrong number,Manual,1 week,???
+2026-05-01 18:13:00,Rajesh Brown,rajesh.brown79@example.com,,0913092200,Sky Labs,Jaipur,Maharashtra,,,BAD_LEAD,Email bounced,,,???
+2026-05-01 18:20:00,,michael.brown80@example.com,+91,661124780,Startup Inc,Bangalore,Maharashtra,India,test@gmail.com,,Budget issue,Manual,5 hours,VIP customer
+2026-05-01 18:27:00,Ananya Taylor,ananya.taylor81@example.com,+44,4481589752,NovaTech,Jaipur,Rajasthan,UK,sales@example.com,,,Referral,5 hours,
+,Vikram Singh,vikramexample.com,+1,,FutureSoft,Kolkata,Tamil Nadu,Canada,sales@example.com,NEW_LEAD,,,N/A,Incomplete address
+2026-05-01 18:41:00,David Gupta,david.gupta83@example.com,+1,77524531,NovaTech,Mumbai,Delhi,USA,agent@example.com,GOOD_LEAD_FOLLOW_UP,Requested pricing,,N/A,
+,Pooja Patel,pooja.patel84@example.com,+1,28680009824,Alpha,,Rajasthan,Canada,,,Budget issue,Referral,,???
+2026-05-01 18:55:00,Priya Gupta,priya.gupta85@example.com,+61,013498478,Startup Inc,Chennai,Karnataka,India,sales@example.com,,Budget issue,Website,2 days,VIP customer
+2026-05-01 19:02:00,Priya Smith,priya.smith86@example.com,+61,,FutureSoft,Jaipur,Telangana,,,BAD_LEAD,Interested in demo,,1 week,VIP customer
+2026-05-01 19:09:00,,amit.sharma87@example.com,+61,,FutureSoft,Bangalore,Rajasthan,Canada,owner@crm.com,BAD_LEAD,,Facebook Ads,5 hours,Incomplete address
+2026-05-01 19:16:00,Aditya Doe,aditya.doe88@example.com,+1,,Enterprise Corp,Lucknow,Rajasthan,India,,BAD_LEAD,Email bounced,Facebook Ads,N/A,VIP customer
+2026-05-01 19:23:00,Karan Johnson,invalid-email,+61,5304414686,Startup Inc,,Karnataka,USA,test@gmail.com,GOOD_LEAD_FOLLOW_UP,,Facebook Ads,1 week,Needs invoice
+2026-05-01 19:30:00,Amit Singh,amit.singh90@example.com,+61,43846477,,Jaipur,Uttar Pradesh,India,sales@example.com,NEW_LEAD,Interested in demo,,,
+2026-05-01 19:37:00,Vikram Johnson,vikram.johnson91@example.com,+1,36372823,,Hyderabad,Karnataka,Canada,agent@example.com,DID_NOT_CONNECT,,Facebook Ads,1 week,
+2026-05-01 19:44:00,Sneha Singh,sneha.singh92@example.com,+61,249449474,,Chennai,,Canada,agent@example.com,INVALID,,CSV Import,N/A,
+2026-05-01 19:51:00,Meera Kumar,meera.kumar93@example.com,+61,59135576,###,Chennai,,,,BAD_LEAD,Wrong number,CSV Import,5 hours,???
+,,sarah.sharma94@example.com,+61,507879574,GrowEasy,Lucknow,Telangana,,,GOOD_LEAD_FOLLOW_UP,Call back tomorrow,CSV Import,2 days,???
+2026-05-01 20:05:00,Ananya Johnson,ananya.johnson95@example.com,+44,87717237943,Alpha,Bangalore,West Bengal,Canada,test@gmail.com,GOOD_LEAD_FOLLOW_UP,Requested pricing,,1 week,Needs invoice
+2026-05-01 20:12:00,Arjun Taylor,arjun.taylor96@example.com,+61,452828270,NovaTech,Kolkata,Telangana,USA,owner@crm.com,BAD_LEAD,Email bounced,Website,2 days,
+2026-05-01 20:19:00,Sophia Sharma,sophia.sharma97@example.com,,3730127806,Sky Labs,Bangalore,Maharashtra,Canada,,NEW_LEAD,Budget issue,Website,N/A,VIP customer
+2026-05-01 20:26:00,Rajesh Kumar,rajesh.kumar98@example.com,+61,64291814,FutureSoft,Kolkata,Rajasthan,Canada,sales@example.com,DID_NOT_CONNECT,Requested pricing,,N/A,???
+2026-05-01 20:33:00,David Sharma,david.sharma99@example.com,+91,,Alpha,Kolkata,Telangana,UK,###,,,Facebook Ads,N/A,VIP customer
+2026-05-01 20:40:00,Arjun Kumar,,+91,6104985290,Startup Inc,,,,,INVALID,Email bounced,Referral,,VIP customer
+2026-05-01 20:47:00,Sophia Brown,abc@,+1,83651117405,Startup Inc,Delhi,Uttar Pradesh,UK,agent@example.com,BAD_LEAD,Interested in demo,Referral,5 hours,
+2026-05-01 20:54:00,Arjun Johnson,arjun.johnson102@example.com,,2709990167,Tech Solutions,Bangalore,,,agent@example.com,GOOD_LEAD_FOLLOW_UP,Interested in demo,,2 days,Needs invoice
+2026-05-01 21:01:00,Arjun Johnson,arjunexample.com,+1,9177866526,,Kolkata,Maharashtra,Canada,test@gmail.com,GOOD_LEAD_FOLLOW_UP,,Facebook Ads,,Incomplete address
+,Aditya Doe,aditya.doe104@example.com,,112663206,,Mumbai,Maharashtra,USA,,INVALID,Interested in demo,CSV Import,1 week,
+,Karan Sharma,karan.sharma105@example.com,,896224075,Tech Solutions,,Rajasthan,India,,,Follow up next month,CSV Import,2 days,
+2026-05-01 21:22:00,Neha Gupta,neha.gupta106@example.com,,11275304822,Acme,Bangalore,,,agent@example.com,DID_NOT_CONNECT,Email bounced,Website,5 hours,Incomplete address
+2026-05-01 21:29:00,,pooja.brown107@example.com,,2532620349,Enterprise Corp,Mumbai,,Canada,owner@crm.com,INVALID,Wrong number,Referral,,???
+2026-05-01 21:36:00,Ananya Smith,,+91,78470482198,,Hyderabad,Delhi,Canada,test@gmail.com,NEW_LEAD,Wrong number,CSV Import,2 days,Incomplete address
+2026-05-01 21:43:00,Emily Johnson,emilyexample.com,,,,Lucknow,Karnataka,USA,,NEW_LEAD,Interested in demo,Facebook Ads,,
+2026-05-01 21:50:00,,rahul.sharma110@example.com,###,,NovaTech,Jaipur,Maharashtra,UK,owner@crm.com,,,CSV Import,2 days,Needs invoice
+2026-05-01 21:57:00,,amit.patel111@example.com,,9288825454,Sky Labs,Kolkata,Uttar Pradesh,UK,owner@crm.com,,Interested in demo,Manual,N/A,
+2026-05-01 22:04:00,Vikram Brown,vikram.brown112@example.com,,,Startup Inc,Bangalore,,India,owner@crm.com,,Interested in demo,Manual,2 days,VIP customer
+2026-05-01 22:11:00,,aditya.johnson113@example.com,,770251813,GrowEasy,Lucknow,Maharashtra,UK,owner@crm.com,DID_NOT_CONNECT,Deal closed,,2 days,VIP customer
+2026-05-01 22:18:00,Ananya Smith,ananya.smith114@example.com,+61,1943533731,Startup Inc,Bangalore,Rajasthan,USA,owner@crm.com,INVALID,Interested in demo,Website,2 days,Incomplete address
+2026-05-01 22:25:00,Sarah Taylor,sarah.taylor115@example.com,+61,,Tech Solutions,Mumbai,,,owner@crm.com,INVALID,Interested in demo,CSV Import,1 week,VIP customer
+2026-05-01 22:32:00,David Sharma,david.sharma116@example.com,,8359038792,Sky Labs,,Telangana,USA,,DID_NOT_CONNECT,Interested in demo,Manual,5 hours,Needs invoice
+2026-05-01 22:39:00,Sophia Brown,sophia.brown117@example.com,+44,5170035908,FutureSoft,Delhi,Uttar Pradesh,UK,agent@example.com,SALE_DONE,Interested in demo,,,Needs invoice
+2026-05-01 22:46:00,Priya Taylor,priya.taylor118@example.com,+1,39379296658,Sky Labs,,Telangana,,owner@crm.com,,Email bounced,,2 days,???
+2026-05-01 22:53:00,Ananya Smith,ananya.smith119@example.com,+61,97617503,Startup Inc,Jaipur,West Bengal,USA,sales@example.com,NEW_LEAD,Wrong number,,N/A,Needs invoice
+2026-05-01 23:00:00,Pooja Patel,pooja.patel120@example.com,+44,10883404099,Enterprise Corp,Mumbai,,USA,sales@example.com,GOOD_LEAD_FOLLOW_UP,Requested pricing,Referral,5 hours,Needs invoice
+2026-05-01 23:07:00,Michael Kumar,michael.kumar121@example.com,+1,5634166935,,Delhi,Tamil Nadu,India,owner@crm.com,DID_NOT_CONNECT,Budget issue,,,Needs invoice
+2026-05-01 23:14:00,,###,+1,,GrowEasy,Bangalore,Rajasthan,UK,test@gmail.com,INVALID,,CSV Import,1 week,Incomplete address
+2026-05-01 23:21:00,Vikram Singh,vikram.singh123@example.com,+1,,Acme,Bangalore,Tamil Nadu,USA,test@gmail.com,NEW_LEAD,Call back tomorrow,Referral,1 week,Incomplete address
+2026-05-01 23:28:00,Pooja Patel,pooja.patel124@example.com,+1,26384708160,,Bangalore,Rajasthan,Canada,,BAD_LEAD,Call back tomorrow,CSV Import,,Incomplete address
+2026-05-01 23:35:00,Rajesh Singh,rajesh.singh125@example.com,###,1257683664,Tech Solutions,Jaipur,West Bengal,UK,owner@crm.com,DID_NOT_CONNECT,,CSV Import,2 days,
+2026-05-01 23:42:00,Michael Taylor,michael.taylor126@example.com,,30882213219,,Pune,Uttar Pradesh,USA,test@gmail.com,NEW_LEAD,Wrong number,,,Needs invoice
+2026-05-01 23:49:00,,michael.gupta127@example.com,+91,8093491660,,Hyderabad,,,agent@example.com,BAD_LEAD,Email bounced,Referral,1 week,Needs invoice
+2026-05-01 23:56:00,Neha Johnson,neha.johnson128@example.com,+91,1249743775,Acme,Bangalore,Tamil Nadu,,agent@example.com,SALE_DONE,Requested pricing,Website,2 days,Needs invoice
+2026-05-02 00:03:00,Aditya Gupta,aditya.gupta129@example.com,,,Startup Inc,Bangalore,Maharashtra,,owner@crm.com,DID_NOT_CONNECT,,Referral,,Needs invoice
+2026-05-02 00:10:00,Aditya Kumar,aditya.kumar130@example.com,+61,,Acme,Chennai,Tamil Nadu,USA,test@gmail.com,INVALID,Call back tomorrow,Manual,1 week,
+2026-05-02 00:17:00,Sneha Brown,sneha.brown131@example.com,,,Alpha,Mumbai,West Bengal,,sales@example.com,,,CSV Import,2 days,
+2026-05-02 00:24:00,Sarah Singh,sarah.singh132@example.com,+91,9041398177,NovaTech,Kolkata,Delhi,Canada,test@gmail.com,,Email bounced,,2 days,Incomplete address
+2026-05-02 00:31:00,David Doe,david.doe133@example.com,+61,4333317852,Tech Solutions,,Tamil Nadu,USA,agent@example.com,,Wrong number,CSV Import,5 hours,Needs invoice
+2026-05-02 00:38:00,Vikram Smith,,+1,,Sky Labs,Pune,Uttar Pradesh,,test@gmail.com,DID_NOT_CONNECT,Follow up next month,Manual,1 week,VIP customer
+2026-05-02 00:45:00,Rajesh Patel,rajesh.patel135@example.com,+1,79719119,NovaTech,Lucknow,Rajasthan,India,sales@example.com,INVALID,Budget issue,,2 days,???
+2026-05-02 00:52:00,Neha Sharma,neha.sharma136@example.com,+91,2417092219,,,West Bengal,India,sales@example.com,NEW_LEAD,Email bounced,,5 hours,Needs invoice
+2026-05-02 00:59:00,Pooja Brown,pooja.brown137@example.com,+61,6044076286,Enterprise Corp,Pune,,USA,sales@example.com,,Email bounced,Manual,5 hours,???
+2026-05-02 01:06:00,Karan Taylor,karan.taylor138@example.com,,77595897004,,,Telangana,Canada,sales@example.com,DID_NOT_CONNECT,Requested pricing,Website,5 hours,Incomplete address
+2026-05-02 01:13:00,Rajesh Taylor,rajesh.taylor139@example.com,+61,43910603,Sky Labs,Mumbai,Maharashtra,USA,agent@example.com,BAD_LEAD,Call back tomorrow,Manual,2 days,
+2026-05-02 01:20:00,Sophia Taylor,sophia.taylor140@example.com,+91,342386586,NovaTech,Pune,Telangana,UK,owner@crm.com,,,Referral,,???
+2026-05-02 01:27:00,Emily Gupta,invalid-email,+61,86301050,Sky Labs,Hyderabad,West Bengal,USA,owner@crm.com,SALE_DONE,Budget issue,,,
+2026-05-02 01:34:00,Karan Smith,karan.smith142@example.com,+61,,Startup Inc,,Tamil Nadu,India,sales@example.com,,Interested in demo,Referral,N/A,Incomplete address
+,Vikram Taylor,vikram.taylor143@example.com,+61,501901350,NovaTech,,Telangana,USA,agent@example.com,DID_NOT_CONNECT,Interested in demo,,2 days,
+2026-05-02 01:48:00,Sarah Smith,sarahexample.com,+44,36482002,Startup Inc,Jaipur,,USA,test@gmail.com,SALE_DONE,Wrong number,,,Incomplete address
+2026-05-02 01:55:00,Rajesh Kumar,rajesh.kumar145@example.com,,0325974553,GrowEasy,Delhi,Delhi,,owner@crm.com,DID_NOT_CONNECT,Follow up next month,,1 week,
+2026-05-02 02:02:00,Vikram Taylor,vikram.taylor146@example.com,+1,68933827,Acme,Bangalore,Telangana,Canada,agent@example.com,INVALID,Deal closed,Manual,N/A,Needs invoice
+2026-05-02 02:09:00,,neha.patel147@example.com,+44,,GrowEasy,Lucknow,Uttar Pradesh,Canada,,GOOD_LEAD_FOLLOW_UP,Budget issue,,2 days,
+,Arjun Smith,arjun.smith148@example.com,+44,,Acme,Lucknow,Karnataka,Canada,sales@example.com,DID_NOT_CONNECT,Call back tomorrow,Facebook Ads,,
+2026-05-02 02:23:00,Rajesh Taylor,rajesh.taylor149@example.com,+1,,Alpha,Chennai,,Canada,owner@crm.com,INVALID,,Referral,N/A,???
+2026-05-02 02:30:00,Sneha Doe,sneha.doe150@example.com,,014061453,Enterprise Corp,Chennai,Tamil Nadu,USA,agent@example.com,,Requested pricing,Facebook Ads,5 hours,Incomplete address
+,Sneha Gupta,sneha.gupta151@example.com,+61,4535567302,NovaTech,Jaipur,West Bengal,Canada,sales@example.com,SALE_DONE,Interested in demo,CSV Import,1 week,VIP customer
+,Neha Brown,neha.brown152@example.com,+91,53307227488,GrowEasy,Hyderabad,West Bengal,USA,test@gmail.com,SALE_DONE,Budget issue,,1 week,Incomplete address
+,,aditya.singh153@example.com,+1,288431176,,Kolkata,Tamil Nadu,Canada,sales@example.com,BAD_LEAD,,,2 days,
+2026-05-02 02:58:00,Priya Taylor,priya.taylor154@example.com,,8592758061,Startup Inc,,Delhi,India,test@gmail.com,INVALID,Wrong number,CSV Import,1 week,Incomplete address
+2026-05-02 03:05:00,David Doe,david.doe155@example.com,,,,,Uttar Pradesh,Canada,agent@example.com,GOOD_LEAD_FOLLOW_UP,Wrong number,Manual,N/A,VIP customer
+2026-05-02 03:12:00,Sneha Gupta,sneha.gupta156@example.com,+61,55976034,Sky Labs,Delhi,Karnataka,USA,agent@example.com,SALE_DONE,Call back tomorrow,Website,2 days,Incomplete address
+2026-05-02 03:19:00,Aditya Taylor,aditya.taylor157@example.com,,80852763,FutureSoft,Bangalore,West Bengal,,,DID_NOT_CONNECT,Interested in demo,Manual,5 hours,???
+2026-05-02 03:26:00,Ananya Taylor,ananya.taylor158@example.com,,383956615,GrowEasy,Bangalore,Rajasthan,Canada,test@gmail.com,,Requested pricing,Referral,,VIP customer
+2026-05-02 03:33:00,Karan Kumar,karan.kumar159@example.com,,,Tech Solutions,Jaipur,,Canada,test@gmail.com,NEW_LEAD,Email bounced,CSV Import,N/A,???
+2026-05-02 03:40:00,,neha.gupta160@example.com,+44,912208014,GrowEasy,Pune,Rajasthan,India,test@gmail.com,GOOD_LEAD_FOLLOW_UP,Follow up next month,Website,N/A,VIP customer
+2026-05-02 03:47:00,Emily Taylor,emily.taylor161@example.com,+44,95863234,Alpha,Kolkata,Karnataka,USA,agent@example.com,BAD_LEAD,Interested in demo,,2 days,
+2026-05-02 03:54:00,,aditya.sharma162@example.com,,,Acme,Chennai,Delhi,,owner@crm.com,NEW_LEAD,Requested pricing,Manual,N/A,Incomplete address
+,,vikram.doe163@example.com,+61,48478862,Enterprise Corp,,Tamil Nadu,Canada,,INVALID,Follow up next month,Website,2 days,???
+2026-05-02 04:08:00,Ananya Smith,ananya.smith164@example.com,+61,,Tech Solutions,,Delhi,,sales@example.com,GOOD_LEAD_FOLLOW_UP,Wrong number,,2 days,Needs invoice
+2026-05-02 04:15:00,Amit Taylor,amit.taylor165@example.com,,,FutureSoft,Lucknow,Karnataka,UK,owner@crm.com,,Budget issue,Facebook Ads,,
+2026-05-02 04:22:00,Amit Brown,amit.brown166@example.com,,685074701,FutureSoft,Chennai,Maharashtra,USA,,INVALID,Wrong number,Referral,N/A,???
+2026-05-02 04:29:00,Meera Smith,meera.smith167@example.com,+44,37916149284,Tech Solutions,Delhi,West Bengal,USA,,,,Manual,,Incomplete address
+2026-05-02 04:36:00,Neha Johnson,neha.johnson168@example.com,+1,49828958314,Acme,Pune,Karnataka,,owner@crm.com,DID_NOT_CONNECT,Interested in demo,Website,N/A,Needs invoice
+2026-05-02 04:43:00,Pooja Sharma,poojaexample.com,+91,060433322,Acme,Jaipur,Rajasthan,UK,,BAD_LEAD,,Facebook Ads,,VIP customer
+2026-05-02 04:50:00,Emily Doe,emily.doe170@example.com,+1,,Startup Inc,Jaipur,Karnataka,India,agent@example.com,SALE_DONE,Deal closed,,5 hours,
+2026-05-02 04:57:00,David Patel,david.patel171@example.com,+1,84466480,,Hyderabad,Uttar Pradesh,USA,agent@example.com,SALE_DONE,Email bounced,,2 days,Incomplete address
+2026-05-02 05:04:00,Pooja Sharma,pooja.sharma172@example.com,+91,711660719,Alpha,Hyderabad,Delhi,India,,NEW_LEAD,Budget issue,CSV Import,,
+2026-05-02 05:11:00,Meera Singh,meera.singh173@example.com,+61,636549446,,Mumbai,Karnataka,,,INVALID,Requested pricing,Website,2 days,VIP customer
+2026-05-02 05:18:00,,david.gupta174@example.com,###,06266295226,Startup Inc,Bangalore,Delhi,,sales@example.com,BAD_LEAD,Call back tomorrow,Manual,,
+2026-05-02 05:25:00,,neha.sharma175@example.com,,2308969994,Tech Solutions,Kolkata,Delhi,India,sales@example.com,GOOD_LEAD_FOLLOW_UP,Follow up next month,Facebook Ads,1 week,Incomplete address
+2026-05-02 05:32:00,Aditya Singh,aditya.singh176@example.com,+1,33313339172,GrowEasy,Pune,Tamil Nadu,UK,sales@example.com,DID_NOT_CONNECT,Wrong number,Facebook Ads,5 hours,Incomplete address
+2026-05-02 05:39:00,Vikram Singh,,,2484901508,FutureSoft,Kolkata,Rajasthan,India,sales@example.com,SALE_DONE,Deal closed,,N/A,VIP customer
+2026-05-02 05:46:00,Pooja Brown,pooja.brown178@example.com,+1,695594524,Tech Solutions,Jaipur,,USA,,INVALID,Budget issue,Referral,5 hours,Incomplete address
+2026-05-02 05:53:00,Karan Patel,abc@,,,Alpha,Kolkata,Tamil Nadu,UK,test@gmail.com,DID_NOT_CONNECT,Email bounced,,2 days,???
+2026-05-02 06:00:00,Riya Sharma,riya.sharma180@example.com,+44,77239237,,,West Bengal,Canada,,INVALID,Call back tomorrow,,2 days,Incomplete address
+2026-05-02 06:07:00,Riya Patel,riya.patel181@example.com,+1,2701383939,,Hyderabad,Rajasthan,USA,,DID_NOT_CONNECT,Email bounced,Facebook Ads,N/A,Needs invoice
+2026-05-02 06:14:00,Rahul Brown,rahul.brown182@example.com,+44,5975854840,,Delhi,Delhi,,,GOOD_LEAD_FOLLOW_UP,Deal closed,Facebook Ads,###,VIP customer
+,John Kumar,john.kumar183@example.com,,9295112049,FutureSoft,Bangalore,Karnataka,India,owner@crm.com,GOOD_LEAD_FOLLOW_UP,Budget issue,Referral,2 days,Needs invoice
+2026-05-02 06:28:00,Sarah Patel,sarah.patel184@example.com,+1,772888074,Enterprise Corp,Kolkata,Karnataka,UK,,SALE_DONE,,CSV Import,N/A,???
+2026-05-02 06:35:00,Priya Singh,priya.singh185@example.com,+91,66835840,Sky Labs,,Karnataka,Canada,agent@example.com,,Call back tomorrow,,N/A,Needs invoice
+2026-05-02 06:42:00,Priya Patel,priya.patel186@example.com,+44,2738197561,Tech Solutions,Mumbai,Telangana,Canada,,BAD_LEAD,,Website,N/A,VIP customer
+2026-05-02 06:49:00,Meera Kumar,meera.kumar187@example.com,+1,2137802325,Enterprise Corp,Chennai,Uttar Pradesh,,sales@example.com,GOOD_LEAD_FOLLOW_UP,Wrong number,CSV Import,,
+2026-05-02 06:56:00,Aditya Johnson,aditya.johnson188@example.com,+44,600899546,,Lucknow,Delhi,USA,test@gmail.com,DID_NOT_CONNECT,Budget issue,Facebook Ads,,Incomplete address
+2026-05-02 07:03:00,Meera Taylor,meera.taylor189@example.com,,,Acme,Bangalore,Delhi,UK,,,Call back tomorrow,,5 hours,VIP customer
+2026-05-02 07:10:00,John Taylor,john.taylor190@example.com,+1,38328805236,Alpha,Kolkata,Maharashtra,India,test@gmail.com,,Call back tomorrow,Referral,5 hours,VIP customer
+2026-05-02 07:17:00,John Taylor,john.taylor191@example.com,+44,9369122610,,Lucknow,Tamil Nadu,,test@gmail.com,,Email bounced,Manual,N/A,Incomplete address
+2026-05-02 07:24:00,Neha Gupta,neha.gupta192@example.com,,26606263279,GrowEasy,,Maharashtra,,agent@example.com,,Deal closed,Website,N/A,VIP customer
+###,Neha Doe,neha.doe193@example.com,+44,849972517,Enterprise Corp,Bangalore,Maharashtra,India,owner@crm.com,NEW_LEAD,Budget issue,Manual,,VIP customer
+2026-05-02 07:38:00,Rahul Gupta,rahul.gupta194@example.com,+91,56040231,Startup Inc,Bangalore,Rajasthan,Canada,sales@example.com,BAD_LEAD,Call back tomorrow,Facebook Ads,5 hours,Incomplete address
+2026-05-02 07:45:00,Sophia Singh,sophia.singh195@example.com,+1,74042060584,NovaTech,Chennai,,Canada,test@gmail.com,NEW_LEAD,Requested pricing,CSV Import,5 hours,Needs invoice
+2026-05-02 07:52:00,Amit Johnson,amit.johnson196@example.com,+91,8787394298,Enterprise Corp,Delhi,Maharashtra,UK,,INVALID,Email bounced,,1 week,Needs invoice
+2026-05-02 07:59:00,Michael Johnson,michael.johnson197@example.com,+44,75563852529,,Chennai,Uttar Pradesh,India,agent@example.com,BAD_LEAD,Interested in demo,Referral,2 days,Needs invoice
+,John Kumar,invalid-email,+91,0776000930,FutureSoft,Delhi,Karnataka,USA,,SALE_DONE,Wrong number,,N/A,VIP customer
+2026-05-02 08:13:00,John Singh,john.singh199@example.com,+91,25023732997,GrowEasy,Mumbai,,USA,,INVALID,Interested in demo,Website,N/A,VIP customer
