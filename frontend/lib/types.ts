@@ -38,3 +38,16 @@ export interface ImportResult {
   totalImported: number;
   totalSkipped: number;
 }
+
+// Mirrors backend/src/types/streamEvent.ts. These are the small
+// progress messages the backend now streams to us, one per line,
+// WHILE an import is still running.
+export type ImportStage = "parsing" | "ai_processing" | "generating_results";
+
+export type StreamEvent =
+  | { type: "stage"; stage: "parsing" }
+  | { type: "stage"; stage: "ai_processing"; totalBatches: number }
+  | { type: "stage"; stage: "generating_results" }
+  | { type: "progress"; stage: "ai_processing"; batchesDone: number; totalBatches: number }
+  | { type: "result"; data: ImportResult }
+  | { type: "error"; message: string };

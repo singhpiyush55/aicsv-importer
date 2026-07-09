@@ -11,8 +11,14 @@ import UploadBox from "../components/UploadBox";
 import PreviewTable from "../components/PreviewTable";
 import ResultsTable from "../components/ResultsTable";
 import Loader from "../components/Loader";
+
+// import { importCsvFile } from "../lib/api";
+// import { ImportResult, RawCsvRow } from "../lib/types";
+
+// NEW
 import { importCsvFile } from "../lib/api";
-import { ImportResult, RawCsvRow } from "../lib/types";
+import { ImportResult, ImportStage, RawCsvRow, StreamEvent } from "../lib/types";
+
 import { useTheme } from "../lib/ThemeContext";
 
 // The different "screens" the user can be on. Using a simple string
@@ -30,7 +36,12 @@ export default function HomePage() {
 
   const [importResult, setImportResult] = useState<ImportResult | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  // New state for loader.
 
+  const [currentStage, setCurrentStage] = useState<ImportStage>("parsing");
+  const [batchProgress, setBatchProgress] = useState<
+      { batchesDone: number; totalBatches: number } | undefined
+    >(undefined);
   // Step 1 -> Step 2: user picked a file. We parse it right here in
   // the browser just to SHOW a preview - no AI call happens yet.
   function handleFileSelected(file: File) {
@@ -54,20 +65,52 @@ export default function HomePage() {
 
   // Step 3: user clicked "Confirm Import". NOW we actually send the
   // file to our backend, which will call the AI and return mapped leads.
+  // async function handleConfirmImport() {
+  //   if (!selectedFile) return;
+
+  //   setStep("processing");
+  //   setErrorMessage(null);
+
+  //   try {
+  //     const result = await importCsvFile(selectedFile);
+  //     setImportResult(result);
+  //     setStep("results");
+  //   } catch (err) {
+  //     const message = err instanceof Error ? err.message : "Something went wrong.";
+  //     setErrorMessage(message);
+  //     setStep("preview"); // send the user back so they can retry
+  //   }
+  // }
+
   async function handleConfirmImport() {
     if (!selectedFile) return;
 
     setStep("processing");
     setErrorMessage(null);
+    setCurrentStage("parsing");
+    setBatchProgress(undefined);
+
+    function handleStreamEvent(event: StreamEvent) {
+      if (event.type === "stage") {
+        setCurrentStage(event.stage);
+        if (event.stage === "ai_processing") {
+          setBatchProgress({ batchesDone: 0, totalBatches: event.totalBatches });
+        } else {
+          setBatchProgress(undefined);
+        }
+      } else if (event.type === "progress") {
+        setBatchProgress({ batchesDone: event.batchesDone, totalBatches: event.totalBatches });
+      }
+    }
 
     try {
-      const result = await importCsvFile(selectedFile);
+      const result = await importCsvFile(selectedFile, handleStreamEvent);
       setImportResult(result);
       setStep("results");
     } catch (err) {
       const message = err instanceof Error ? err.message : "Something went wrong.";
       setErrorMessage(message);
-      setStep("preview"); // send the user back so they can retry
+      setStep("preview");
     }
   }
 
@@ -79,6 +122,10 @@ export default function HomePage() {
     setPreviewRows([]);
     setImportResult(null);
     setErrorMessage(null);
+
+    // Reset loader state when starting over
+    setCurrentStage("parsing"); 
+    setBatchProgress(undefined);  
   }
 
   return (
@@ -141,8 +188,10 @@ export default function HomePage() {
         </div>
       )}
 
-      {step === "processing" && <Loader message="AI is mapping your CSV into CRM leads. This can take a moment..." />}
+      {/* {step === "processing" && <Loader message="AI is mapping your CSV into CRM leads. This can take a moment..." />} */}
 
+      {step === "processing" && <Loader currentStage={currentStage} batchProgress={batchProgress} />}
+      
       {step === "results" && importResult && (
         <div className="space-y-6">
           <ResultsTable result={importResult} />
